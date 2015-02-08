@@ -1,6 +1,5 @@
 #-*- coding:utf-8 -*-
 from django.conf.urls import patterns, include, url
-from cms.models import Story
 from cms.views import StoryDetailView, StoryListView
 
 urlpatterns = patterns('cms.views',
